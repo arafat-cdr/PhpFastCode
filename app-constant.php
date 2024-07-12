@@ -1,5 +1,7 @@
 <?php
 
+define("PHP_FAST_CODE_VERSION", 1);
+
 # Set the Vars
 $controllers = "/app/Controllers";
 $models = "/app/Models";
