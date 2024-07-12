@@ -1,0 +1,29 @@
+1) table:jobs
+ 1) id-->primary
+ 2) client_id-->varchar:255
+ 3) name-->varchar:255
+ 4) job_type_id-->varchar:255
+ 5) job_format_id-->varchar:255
+ 6) quantity-->varchar:255
+ 7) comment_id-->varchar:255
+ 8) instruction_id-->varchar:255
+ 9) turn_around_time_id->varchar:255
+ 9) note_id-->varchar:255
+ 10) job_submitted_date-->varchar:255
+ 11) job_deadline-->varchar:255
+ 12) job_order-->varchar:255
+ 13) assign_user_id-->varchar:255
+ 14) download_status_id-->varchar:255
+ 15) upload_status_id-->varchar:255
+ 16) job_status_id-->varchar:255
+ 17) user_id-->varchar:255
+ 18) display_order-->int:10
+ 19) file_url-->varchar:255
+ 20) data_comes_form-->varchar:255
+ 21) ftp_url
+ 22) ftp_username
+   completed_time-->varchar:255
+ 19) created_at-->timestamp
+ 20) update_at-->timestamp
+ 21) delated_at-->timestamp
+ 2)table:end

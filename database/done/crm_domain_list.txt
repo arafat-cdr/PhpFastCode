@@ -1,0 +1,12 @@
+1)table:crm_domain_lists
+   1) id-->primary
+   2) domain_name-->varchar:255
+   3) crm_signature-->varchar:255
+   4) note-->text
+   5) display_order-->int:10
+   6) user_id-->varchar:255
+   7) created_at-->timestamp
+   8) updated_at-->timestamp
+   9) delated_at-->timestamp
+
+8)table:end

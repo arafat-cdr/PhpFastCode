@@ -1,0 +1,8 @@
+1)table:user_types
+  1) id-->primary
+  2) name-->varchar:255
+  3) display_order-->int:10
+  4) user_id-->varchar:255
+  5) created_at-->timestamp
+  6) updated_at-->timestamp
+  7) delated_at-->timestamp

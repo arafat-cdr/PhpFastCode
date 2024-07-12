@@ -1,0 +1,41 @@
+1) table:invoices
+   1) id-->primary
+   2) client_id-->varchar:255
+   3) invoice_code-->varchar:255
+   4) invoice_no-->varchar:255
+   5) billing_name-->varchar:255
+   6) billing_address-->text
+   7) tax_rate-->varchar:255
+   8) vat_number-->varchar:255
+   9) currency-->varchar:255
+   10) invoice_date-->varchar:255
+   11) email_date-->varchar:255
+   12) payment_date-->varchar:255
+   13) note-->text
+   14) invoice_status_id-->varchar:255
+   15) total_net-->varchar:255
+   16) total_tax-->varchar:255
+   17) total_gross-->varchar:255
+   18) user_id-->varchar:255
+   19) created_at-->timestamp
+   20) updated_at-->timestamp
+   21) delated_at-->timestamp
+
+2) table:invoice_items
+    1) id -->primary
+    2) invoice_id-->varchar:255
+    3) job_code--> varchar:255
+    4) description-->text
+    5) unit_price-->varchar:255
+    6) quantity-->varchar:255
+    7) discount_description-->text
+    8) discount_amount-->varchar:255
+    9) net_price-->varchar:255
+    10) tax-->varchar:255
+    11) gross_price-->varchar:255
+    12) user_id-->varchar:255
+    13) created_at-->timestamp
+    14) updated_at-->timestamp
+    15) delated_at-->timestamp
+
+3) table:end

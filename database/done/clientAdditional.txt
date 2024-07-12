@@ -1,0 +1,64 @@
+1) table:client_notes
+  1) id-->primary
+  2) client_id-->varchar:255
+  3) order_note-->text
+  4) invoice_note-->text
+  5) marketing_note-->text
+  6) others_note-->text
+  7) user_id-->varchar:255
+  8) created_at-->timestamp
+  9) updated_at-->timestamp
+  10) delated_at-->timestamp
+
+2)table:client_contact_person_companies
+    1) id-->primary
+    2) client_id-->varchar:255
+    2) contact_name-->varchar:255
+    3) company_name-->varchar:255
+    4) website_address-->varchar:255
+    5) importance_id-->varchar:255
+    6) user_id-->varchar:255
+    7) created_at-->timestamp
+    8) updated_at-->timestamp
+    9) delated_at-->timestamp
+
+3) table:client_contact_details
+    1) id-->primary
+    2) primary_email-->varchar:255
+    3) email_cc-->varchar:255
+    4) primary_billing_email-->varchar:255
+    5) billing_email_cc-->varchar:255
+    6) telephone-->varchar:255
+    7) mobile-->varchar:255
+    8) user_id-->varchar:255
+    9) created_at-->timestamp
+    10) updated_at-->timestamp
+    11) delated_at-->timestamp
+
+4) table:client_billing_preferences
+    1) id-->primary
+    2) client_id-->varchar:255
+    2) default_currency-->varchar:255
+    3) tax_rate-->varchar:255
+    3) vat_number -->varchar:255
+    4) billing_period_id-->varchar:255
+    5) user_id-->varchar:255
+    6) created_at-->timestamp
+    7) updated_at-->timestamp
+    8) delated_at-->timestamp
+
+5) table:client_billing_address
+    1) id-->primary
+    2) client_id-->varchar:255
+    2) address_line_1-->varchar:255
+    3) address_line_2-->varchar:255
+    4) town-->varchar:255
+    5) state-->varchar:255
+    6) post_code-->varchar:255
+    7) country-->varchar:255
+    8) user_id-->varchar:255
+    9) created_at-->timestamp
+    10) updated_at-->timestamp
+    11) delated_at-->timestamp
+
+6) table:end

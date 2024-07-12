@@ -1,0 +1,22 @@
+1)table:quotes
+   1) id-->primary
+   2) name-->varchar:255
+   3) email-->varchar:255
+   4) contact_number-->varchar:255
+   5) quantity-->varchar:255
+   6) service-->text
+   7) return_file_format-->text
+   8) comment-->text
+   9) link-->varchar:255
+   10) request_date-->varchar:255
+   11) quotation_no-->varchar:255
+   12) client_id-->varchar:255
+   13) quote_status_id-->varchar:255
+   14) note-->varchar:255
+   15) display_order-->int:10
+   16) user_id-->varchar:255
+   17) created_at-->timestamp
+   18) updated_at-->timestamp
+   19) delated_at-->timestamp
+
+8)table:end

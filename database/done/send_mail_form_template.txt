@@ -1,0 +1,10 @@
+1) table:send_mail_form_templates
+    1) id-->primary
+    2) client_id-->varchar:255
+    3) job_code-->varchar:255
+    4) mail_template_id-->varchar:255
+    5) user_id-->varchar:255
+    6) created_at-->timestamp
+    7) updated_at-->timestamp
+    8) delated_at-->timestamp
+2) table:end

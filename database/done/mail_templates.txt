@@ -1,0 +1,11 @@
+1) table:mail_templates
+    1) id-->primary
+    2) purpose-->text
+    3) subject-->text
+    4) message-->text
+    5) display_order-->int:10
+    5) user_id-->varchar:255
+    6) created_at-->timestamp
+    7) updated_at-->timestamp
+    8) delated_at-->timestamp
+2) table:end
